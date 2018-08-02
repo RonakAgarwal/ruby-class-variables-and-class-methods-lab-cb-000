@@ -2,13 +2,13 @@ class Song
   @@count = 0
 
   def self.count
-    @@count.unique
+    @@count
   end
 
   @@genres = []
 
   def self.genres
-    @@genres
+    @@genres.uniq
   end
 
   # This is how the method is done on learn.co:
