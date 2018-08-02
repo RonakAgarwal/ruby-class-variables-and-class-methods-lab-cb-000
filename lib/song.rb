@@ -31,7 +31,7 @@ class Song
   end
 
   def self.artists
-    @@artists.uniq
+    @@artists
   end
 
   def initialize(name, artist, genre)
